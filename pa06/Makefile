@@ -16,7 +16,7 @@ INC = include
 BIN = bin
 OBJS = $(OBJ)/main.o $(OBJ)/listaadjacencia.o $(OBJ)/graph.o
 HDRS = $(INC)/listaadjacencia.hpp $(INC)/graph.hpp
-CFLAGS = -Wall -std=c++17 -c -I$(INC)
+CFLAGS = -g -pg -Wall -std=c++17 -c -I$(INC)
 
 EXE = $(BIN)/pa6.out
 
