@@ -7,7 +7,7 @@
 #include <iostream>
 #include "./listaadjacencia.hpp"
 
-class Grafo{
+class Grafo {
     private:
         
         /*  Você deve implementar ListaAdjacencia como um TAD que irá armazenar
